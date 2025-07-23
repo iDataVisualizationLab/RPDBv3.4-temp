@@ -67,7 +67,7 @@ export default function ProtectedLayout({ children }: { children: ReactNode }) {
     const checkAccess = () => {
       const token = localStorage.getItem("token");
       const guest = localStorage.getItem("guest");
-      const role = localStorage.getItem("role") || "guest";
+      const role = localStorage.getItem("role") || guest ? "guest" : "none";
 
       if (!token && !guest && role !== "guest") {
         router.replace("/login");
