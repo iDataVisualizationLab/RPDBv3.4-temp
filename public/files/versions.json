@@ -1,0 +1,31 @@
+[
+    {
+      "version": "v2.0.0",
+      "descriptions": "<p>Initial release with basic features.</p>",
+      "is_stable": true,
+      "date": "2025-3-31",
+      "path": "/v2.0.0"
+    },
+    {
+      "version": "v2.0.1",
+      "descriptions": "<p>Bug fixes and performance improvements.</p>",
+      "is_stable": true,
+      "date": "2025-04-01",
+      "path": "/v2.0.1"
+    },
+    {
+      "version": "v2.0.2",
+      "descriptions": "<p>Beta release with new experimental modules.</p>",
+      "is_stable": false,
+      "date": "2025-04-03",
+      "path": "/v2.0.2"
+    },
+    {
+      "version": "v2.0.3",
+      "descriptions": "<p>Update includes new Specifications and Forensic Evaluations sections.</p>",
+      "is_stable": false,
+      "date": "2025-04-04",
+      "path": "/v2.0.3"
+    }
+  ]
+  
